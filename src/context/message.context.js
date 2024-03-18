@@ -21,8 +21,8 @@ export const MessageContextProvider = ({ children }) => {
         });
       }
     });
-  }, []);
-  
+  });
+
   return (
     <messageContext.Provider value={{ message }}>
       {children}
